@@ -1,0 +1,21 @@
+{
+  "React Component": {
+    "prefix": "rc",
+    "body": [
+      "import React, { Component } from 'react';",
+      "",
+      "class ${0:MyComponent} extends Component {",
+      "  render() {",
+      "    return (",
+      "      <div>",
+      "        ",
+      "      </div>",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "export default ${0:MyComponent};"
+    ],
+    "description": "Generates a React Component"
+  }
+}

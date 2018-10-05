@@ -1,0 +1,60 @@
+{
+  "React Component": {
+    "prefix": "rc",
+    "body": [
+      "import React, { Component } from 'react';",
+      "",
+      "class ${0:MyComponent} extends Component {",
+      "  render() {",
+      "    return (",
+      "      <div>",
+      "        ",
+      "      </div>",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "export default ${0:MyComponent};"
+    ],
+    "description": "Generates a React Component"
+  },
+  "React Component Container": {
+    "prefix": "rcc",
+    "body": [
+      "import { compose } from 'recompose';",
+      "import ${0:MyComponent} from './${0:MyComponent}';",
+      "",
+      "export default compose(",
+      "",
+      ")(${0:MyComponent});"
+    ],
+    "description": "Generates a React Component Container"
+  },
+  "React PureComponent": {
+    "prefix": "rpc",
+    "body": [
+      "import React, { PureComponent } from 'react';",
+      "",
+      "class ${0:MyComponent} extends PureComponent {",
+      "  render() {",
+      "    return (",
+      "      <div>",
+      "        ",
+      "      </div>",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "export default ${0:PureComponent};"
+    ],
+    "description": "Generates a React PureComponent"
+  },
+  "React Structued Component Index": {
+    "prefix": "rsc",
+    "body": [
+      "export { default as ${0:MyComponent} } from './${0:MyComponent}';",
+      "export { default as ${0:MyComponent}Container } from './${0:MyComponent}Container';"
+    ],
+    "description": "Generates an index.js for a React structured component"
+  }
+}

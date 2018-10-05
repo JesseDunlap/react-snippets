@@ -1,0 +1,21 @@
+{
+  "React PureComponent": {
+    "prefix": "rpc",
+    "body": [
+      "import React, { PureComponent } from 'react';",
+      "",
+      "class ${0:MyComponent} extends PureComponent {",
+      "  render() {",
+      "    return (",
+      "      <div>",
+      "        ",
+      "      </div>",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "export default ${0:PureComponent};"
+    ],
+    "description": "Generates a React PureComponent"
+  }
+}

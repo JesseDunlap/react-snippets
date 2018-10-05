@@ -1,0 +1,14 @@
+{
+  "name": "react-snippets",
+  "description": "A set of useful React snippets.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jesse Dunlap",
+    "email": "jesse@hydrais.com",
+    "url": "https://github.com/jessedunlap"
+  },
+  "bin": {
+    "generate": "bin/generate.sh"
+  },
+  "license": "MIT"
+}
