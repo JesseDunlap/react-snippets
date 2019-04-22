@@ -10,4 +10,4 @@ class ${0:MyComponent} extends PureComponent {
   }
 }
 
-export default ${0:PureComponent};
+export default ${0:MyComponent};
